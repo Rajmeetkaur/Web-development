@@ -122,13 +122,6 @@ var x = 0;
 var array = Array();
 
 function add_element_to_array()
-
-# solution 7
-function removecolor()
-{
-var x=document.getElementById("colorSelect");
-x.remove(x.selectedIndex);
-}
 {
  array[x] = document.getElementById("text1").value;
  alert("Element: " + array[x] + " Added at index " + x);
